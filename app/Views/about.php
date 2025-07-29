@@ -4,22 +4,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>MyBlog</title>
+	<title>MyBlog - Jelajah Jakarta</title>
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>" />
+	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>">
 </head>
 
 <body>
 
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 		<div class="container">
 			<a class="navbar-brand" href="<?= base_url() ?>">MyBlog</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
+
 			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
+				<ul class="navbar-nav ms-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="<?= base_url() ?>">Home</a>
 					</li>
@@ -40,45 +43,56 @@
 		</div>
 	</nav>
 
-	<div class="p-5 mb-4 bg-light rounded-3">
-      <div class="container py-5">
-        <h1 class="display-5 fw-bold">About</h1>
-        
-      </div>
-    </div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 my-2 card">
-				<div class="card-body">
-					<h5 class="h5">Siapa Aku</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
-				</div>
-			</div>
-			<div class="col-md-12 my-2 card">
-				<div class="card-body">
-					<h5 class="h5">Bisa Apa Aku</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
-				</div>
-			</div>
-			<div class="col-md-12 my-2 card">
-				<div class="card-body">
-					<h5 class="h5">Bagaimana Aku</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
-				</div>
-			</div>
-			
+	<!-- Header -->
+	<header class="p-5 mb-4 bg-light rounded-3 mt-5">
+		<div class="container py-5">
+			<h1 class="display-5 fw-bold text-center">About</h1>
 		</div>
-	</div>
-	<div class="container py-4">
-		<footer class="pt-3 mt-4 text-muted border-top">
-			<div class="container">
-				&copy; <?= Date('Y') ?>
-			</div>
-		</footer>
-	</div>
+	</header>
 
-	<!-- Jquery dan Bootsrap JS -->
+	<!-- About Section with Image -->
+	<main class="container">
+		<div class="row justify-content-center mb-4">
+			<div class="col-md-10">
+				<div class="card shadow-sm border-0">
+					<div class="row g-0 align-items-center">
+						<div class="col-md-5">
+							<img src="<?= base_url('images/jakarta2.png') ?>" 
+							     class="img-fluid rounded-start w-100"
+							     style="max-height: 300px; object-fit: cover;" 
+							     alt="Jakarta City">
+						</div>
+						<div class="col-md-7">
+							<div class="card-body">
+								<h5 class="card-title">Selamat datang di <strong>Jelajah Jakarta!</strong></h5>
+								<p class="card-text">
+									Blog ini hadir sebagai panduan lengkap bagi kamu yang ingin mengenal lebih dekat berbagai tempat wisata menarik di Jakarta, mulai dari destinasi ikonik hingga spot-spot tersembunyi yang jarang diketahui orang.
+								</p>
+								<p class="card-text">
+									Kami percaya bahwa Jakarta bukan hanya kota sibuk penuh gedung pencakar langit dan kemacetan. Di balik itu semua, ada banyak tempat yang menyimpan sejarah, budaya, hiburan, dan keindahan yang layak dijelajahi—mulai dari Kota Tua, Monas, museum-museum unik, taman kota, hingga wisata kuliner malam yang menggoda.
+								</p>
+								<p class="card-text">
+									Melalui blog ini, kami menyajikan ulasan jujur, tips perjalanan, info harga tiket, rute transportasi, hingga rekomendasi itinerary untuk memudahkanmu merencanakan liburan singkat atau petualangan akhir pekan di ibu kota.
+								</p>
+								<p class="fw-semibold text-primary">
+									<strong>Jelajahi Jakarta, temukan sudut indahnya!</strong>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- Footer -->
+	<footer class="container py-4">
+		<div class="text-center text-muted border-top pt-3">
+			&copy; <?= date('Y') ?> MyBlog. All rights reserved.
+		</div>
+	</footer>
+
+	<!-- JS Scripts -->
 	<script src="<?= base_url('js/jquery.min.js') ?>"></script>
 	<script src="<?= base_url('js/bootstrap.min.js') ?>"></script>
 
