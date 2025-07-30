@@ -9,6 +9,10 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+	<!-- Custom Theme CSS -->
+  	<link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
+
 	<style>
 		body {
 			padding-top: 70px;
