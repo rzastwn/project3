@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>">
 
   <!-- Custom Theme CSS -->
-  <link rel="stylesheet" href="<?= base_url('css/about.css') ?>" />
+  <link rel="stylesheet" href="<?= base_url('css/style.css') ?>" />
 
 </head>
 
