@@ -62,7 +62,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="<?= base_url() ?>">Home</a>
+            <a class="nav-link active" href="<?= base_url() ?>">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?= base_url('about') ?>">About</a>
@@ -102,7 +102,10 @@
           </div>
           <div class="card-body">
             <h5 class="card-title">TAMAN IMPIAN JAYA ANCOL</h5>
-            <p class="card-text">Taman Impian Jaya Ancol adalah kawasan wisata terpadu terbesar di Jakarta yang terletak di pesisir utara Ibu Kota. Dengan luas sekitar 552 hektare, Ancol menjadi destinasi favorit bagi keluarga dan wisatawan karena menghadirkan berbagai pilihan hiburan, rekreasi, dan edukasi dalam satu area.</p>
+            <p class="card-text">
+              Taman Impian Jaya Ancol adalah kawasan wisata terpadu terbesar di Jakarta yang menghadirkan berbagai pilihan hiburan, rekreasi, dan edukasi dalam satu area.
+            </p>
+            <a href="http://localhost:8080/admin/post/1/preview" class="btn btn-sm btn-outline-primary">Baca Selengkapnya</a>
           </div>
         </div>
       </div>
@@ -115,7 +118,10 @@
           </div>
           <div class="card-body">
             <h5 class="card-title">MONUMEN NASIONAL</h5>
-            <p class="card-text">Monumen Nasional (Monas) adalah simbol kebanggaan dan perjuangan rakyat Indonesia yang terletak di pusat Kota Jakarta, tepatnya di Lapangan Merdeka, Jakarta Pusat. Monumen ini dibangun untuk mengenang semangat juang bangsa Indonesia dalam merebut dan mempertahankan kemerdekaan dari penjajahan.</p>
+            <p class="card-text">
+              Monumen Nasional (Monas) adalah simbol kebanggaan dan perjuangan rakyat Indonesia yang terletak di pusat Kota Jakarta.
+            </p>
+            <a href="http://localhost:8080/admin/post/2/preview" class="btn btn-sm btn-outline-primary">Baca Selengkapnya</a>
           </div>
         </div>
       </div>
@@ -128,7 +134,10 @@
           </div>
           <div class="card-body">
             <h5 class="card-title">TAMAN SATWA RAGUNAN</h5>
-            <p class="card-text">Taman Margasatwa Ragunan adalah kebun binatang terbesar dan tertua di Indonesia yang terletak di kawasan Pasar Minggu, Jakarta Selatan. Diresmikan pada tahun 1966 dan memiliki luas sekitar 140 hektare, Ragunan menjadi rumah bagi lebih dari 2.000 satwa dari berbagai spesies, baik asli Indonesia maupun dari mancanegara.</p>
+            <p class="card-text">
+              Taman Margasatwa Ragunan adalah kebun binatang terbesar dan tertua di Indonesia yang terletak di kawasan Pasar Minggu, Jakarta Selatan.
+            </p>
+            <a href="http://localhost:8080/admin/post/3/preview" class="btn btn-sm btn-outline-primary">Baca Selengkapnya</a>
           </div>
         </div>
       </div>
@@ -141,7 +150,10 @@
           </div>
           <div class="card-body">
             <h5 class="card-title">KOTA TUA</h5>
-            <p class="card-text">Kota Tua Jakarta adalah kawasan bersejarah yang menampilkan arsitektur kolonial Belanda dan menjadi saksi perjalanan panjang kota Jakarta. Di sini terdapat Museum Fatahillah, kafe-kafe klasik, dan berbagai atraksi budaya yang memikat para pengunjung lokal maupun mancanegara.</p>
+            <p class="card-text">
+              Kota Tua Jakarta adalah kawasan bersejarah yang menampilkan arsitektur kolonial Belanda serta atraksi budaya yang memikat pengunjung.
+            </p>
+            <a href="http://localhost:8080/admin/post/4/preview" class="btn btn-sm btn-outline-primary">Baca Selengkapnya</a>
           </div>
         </div>
       </div>
