@@ -1,0 +1,124 @@
+  :root {
+    --shopee-primary: #f7542e;
+    --shopee-hover: #d84320;
+    --shopee-bg: #ffffff;
+    --shopee-muted: #666666;
+    --shopee-light: #f5f5f5;
+    --shopee-shadow: rgba(0, 0, 0, 0.05);
+  }
+
+  body {
+    background-color: var(--shopee-bg);
+    color: var(--shopee-muted);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* Navbar */
+  .navbar {
+    background-color: var(--shopee-primary) !important;
+  }
+
+  .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    margin-left: 0.75rem;
+    transition: color 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #ffe0d5 !important;
+  }
+
+  /* Hero Section */
+  .bg-light {
+    background-color: var(--shopee-light) !important;
+    color: var(--shopee-muted);
+  }
+
+  .display-5 {
+    color: var(--shopee-primary);
+  }
+
+  /* Button Styles */
+  .btn-primary {
+    background-color: var(--shopee-primary);
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--shopee-hover);
+  }
+
+  .btn-outline-primary {
+    color: var(--shopee-primary);
+    border-color: var(--shopee-primary);
+  }
+
+  .btn-outline-primary:hover {
+    background-color: var(--shopee-primary);
+    color: white;
+  }
+
+  /* Card */
+  .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 10px var(--shopee-shadow);
+    transition: transform 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card-title {
+    color: var(--shopee-primary);
+    font-weight: bold;
+  }
+
+  .card-text {
+    color: var(--shopee-muted);
+  }
+
+  .card-horizontal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-img-left img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  @media (min-width: 768px) {
+    .card-horizontal {
+      flex-direction: row;
+    }
+
+    .card-horizontal .card-img-left {
+      width: 40%;
+      max-height: 100%;
+    }
+
+    .card-horizontal .card-body {
+      width: 60%;
+      padding: 1.5rem;
+    }
+  }
+
+  footer {
+    font-size: 0.9rem;
+    color: var(--shopee-muted);
+  }
+
+  footer span:last-child {
+    font-style: italic;
+  }
