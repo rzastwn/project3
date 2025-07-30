@@ -15,7 +15,7 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="<?= base_url() ?>">MyBlog</a>
+			<a class="navbar-brand" href="<?= base_url() ?>">Jelajah Jakarta</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -88,7 +88,7 @@
 	<!-- Footer -->
 	<footer class="container py-4">
 		<div class="text-center text-muted border-top pt-3">
-			&copy; <?= date('Y') ?> MyBlog. All rights reserved.
+			&copy; <?= date('Y') ?> Jelajah Jakarta. All rights reserved.
 		</div>
 	</footer>
 
